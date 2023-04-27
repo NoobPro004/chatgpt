@@ -12,7 +12,6 @@ openai.api_key = os.environ["OPEN_API_KEY"]
 model_engine = "text-davinci-003"
 headerList=['contactID','Call Transcript','Summary','Sentiment','Call_Score','Hygiene']
 responseheaders=['Summary','Sentiment','Call_Score','Hygiene']
-
 list=[]
 
 df = pd.read_csv('call_scripts.csv')
